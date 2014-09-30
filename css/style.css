@@ -1,3 +1,8 @@
 .navbar-inner {
     min-height: 200px; /* change value here*/
+    color: white;
+}
+.profil {
+    margin: 15px;
+    border-radius: 10px;
 }
