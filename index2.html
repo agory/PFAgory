@@ -8,30 +8,39 @@
         <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img src="img/profil.jpg" class="profil" /></a>
+        <div class="navbar navbar-default navbar-fixed-top navbar-inner" role="navigation">
+            <div class="col-sm-3 col-lg-2 hidden-xs navbar-inverse"> 
+                <img src="img/profil.jpg" class="profil" />
+            </div>
+            <div class="col-xs-12 col-sm-9 col-lg-10">
+                <div class="row navbar-inverse">
+                    <div class="col-xs-11 col-xs-offset-1">
+                        <h2>PorteFolio</h2>
+                        <h3>Gory Alexandre</h>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Partie de la barre masquée si la surface d'affichage est insuffisante -->
+                    <div class="collapse navbar-collapse" id="navbar-collapse-target">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#">Rubrique 1</a></li>
+                            <li><a href="#">Rubrique 2</a></li>
+                            <li><a href="#">Rubrique 3</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-header col-xs-1">
+                        <!-- Bouton d'accès affiché à droite si la zone d'affichage est trop petite -->
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-target">
+                            <span class="sr-only">Activer la navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+            </div> 
+
         </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-
-    <div class="container">
-
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
         <p>Étymologie
 
             Le mot « bible » vient du grec ancien βιϐλία (ta biblia), un substantif au pluriel qui signifie « les livres », soulignant son caractère multiple. Ce mot est passé dans la langue française par l’intermédiaire du latin bíblia, et est devenu ainsi un mot au singulier1.
@@ -148,9 +157,6 @@
             La théorie dominante aujourd'hui sur la composition des Évangiles est celle dite « des deux sources » : Matthieu et Luc auraient été écrits à partir de Marc et d'une source de paroles (logia) de Jésus (dite « Q », de l'allemand Quelle, source) ; Jean viendrait d'une tradition indépendante, qui aurait aussi produit les épîtres et l'Apocalypse placées sous le même patronage. Les Actes sont incontestablement la suite de Luc. Les épîtres reconnues par tous comme étant de Paul sont celles aux Romains, aux Corinthiens, aux Galates, et la première aux Thessaloniciens (peut-être le plus ancien écrit du Nouveau Testament). La période de rédaction est donc très brève : trois générations au maximum, au plus tard au début du IIe siècle.
             L'exégèse biblique
         </p>
-      </div>
-
-    </div><!-- /.container -->
         <script src="lib/jquery/jquery-1.11.1.min.js"></script>
         <script src="lib/bootstrap/js/bootstrap.min.js"></script>
     </body>
