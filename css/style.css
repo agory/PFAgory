@@ -1,10 +1,13 @@
 .navbar-inner {
-    min-height: 200px; /* change value here*/
+    min-height: 200px !important; /* change value here*/
     color: white;
+    vertical-align: bottom;
 }
 .profil {
     margin: 15px;
     border-radius: 10px;
+    height: 100px;
+    width: auto;
 }
 
 body{
